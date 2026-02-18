@@ -24,5 +24,6 @@ pub enum Instruction {
     MADCTL = 0x36,
     VSCAD = 0x37,
     COLMOD = 0x3A,
+    WRDISBV = 0x51,
     VCMOFSET = 0xC5,
 }
