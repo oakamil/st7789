@@ -315,13 +315,4 @@ where
             }
         }
     }
-
-    ///
-    /// Sets display brightness
-    ///
-    pub fn set_brightness(&mut self, brightness: u8) -> Result<(), Error<PinE>> {
-        self.write_command(Instruction::WRDISBV)?;
-        self.write_data(&[brightness])?;
-        Ok(())
-    }
 }
