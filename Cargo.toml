@@ -12,8 +12,8 @@ documentation = "https://docs.rs/st7789"
 rust-version = "1.51"
 
 [dependencies]
-display-interface = "0.4"
-embedded-hal = "0.2"
+display-interface = "0.5"
+embedded-hal = "1.0.0"
 nb = "1.0"
 
 [dependencies.embedded-graphics-core]

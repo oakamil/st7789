@@ -7,7 +7,7 @@ use embedded_graphics_core::{
     pixelcolor::{raw::RawU16, Rgb565},
     prelude::*,
 };
-use embedded_hal::digital::v2::OutputPin;
+use embedded_hal::digital::OutputPin;
 
 pub trait DrawBatch<DI, RST, BL, T, PinE>
 where

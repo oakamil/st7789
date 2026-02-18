@@ -6,7 +6,7 @@ use embedded_graphics_core::{
 };
 use embedded_graphics_core::{prelude::OriginDimensions, Pixel};
 
-use embedded_hal::digital::v2::OutputPin;
+use embedded_hal::digital::OutputPin;
 
 use crate::{Error, Orientation, ST7789};
 use display_interface::WriteOnlyDataCommand;
